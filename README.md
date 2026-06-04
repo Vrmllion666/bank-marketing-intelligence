@@ -91,7 +91,7 @@ streamlit run app.py
 
 > Artefak model telah disertakan dalam direktori `model/` sehingga tidak diperlukan proses pelatihan ulang.
 
-**Akses daring:** https://bank-marketing-intelligence.streamlit.app 
+**Akses daring:** https://bank-marketing-intelligence-wekaagril.streamlit.app 
 
 ---
 
