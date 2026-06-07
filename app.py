@@ -1060,8 +1060,8 @@ elif page == "Evaluasi Model":
         """)
 
 elif page == "About":
- st.markdown("""
- <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
+   st.markdown("""
+   <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
             border-radius:12px;padding:20px 24px;margin-bottom:24px;'>
     <p style='font-size:14px;line-height:1.8;margin:0;color:var(--text-color);'>
         Bank Marketing Intelligence merupakan aplikasi berbasis data yang dirancang untuk membantu 
@@ -1071,9 +1071,9 @@ elif page == "About":
         prediksi individual maupun batch, serta evaluasi model yang transparan, aplikasi ini 
         membantu pengambilan keputusan pemasaran yang lebih efektif, efisien, dan berbasis data.
      </p>
-  </div>
-  """, unsafe_allow_html=True)
-  st.markdown("""
+    </div>
+    """, unsafe_allow_html=True)
+    st.markdown("""
     <div style='padding:4px 0 16px;'>
         <p style='font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin:0 0 4px;'>About</p>
         <p style='font-size:0.87rem;color:var(--text-color);opacity:0.6;margin:0;'>
