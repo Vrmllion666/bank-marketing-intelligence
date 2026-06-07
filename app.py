@@ -377,9 +377,14 @@ if page == "Home":
             st.markdown(f"""
             <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
                         border-radius:12px;padding:20px;text-align:center;'>
-                <div style='width:52px;height:52px;border-radius:50%;background:rgba(37,99,235,0.15);
-                            display:flex;align-items:center;justify-content:center;
-                            margin:0 auto 12px;font-size:22px;'>👤</div>
+                <img src='{fotoprofil}' style='
+                width:72px;
+                height:72px;
+                border-radius:50%;
+                object-fit:cover;
+                display:block;
+                margin:0 auto 12px;
+                border:2px solid rgba(37,99,235,0.3);'>
                 <p style='font-size:14px;font-weight:700;margin:0 0 4px;'>{nama}</p>
                 <p style='font-size:12px;color:#6b7280;margin:0 0 2px;'>{nim}</p>
             </div>
