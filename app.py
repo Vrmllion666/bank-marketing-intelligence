@@ -376,7 +376,7 @@ if page == "Home":
      ]
 
     cols_fitur = st.columns(len(fitur))
-    for col, (icon, judul, deskripsi) in zip(cols_fitur, fitur):
+    for col, (judul, deskripsi) in zip(cols_fitur, fitur):
       with col:
         st.markdown(f"""
         <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
