@@ -1060,6 +1060,20 @@ elif page == "Evaluasi Model":
         """)
 
 elif page == "About":
+ st.markdown("""
+<div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
+            border-radius:12px;padding:20px 24px;margin-bottom:24px;'>
+    <p style='font-size:14px;line-height:1.8;margin:0;color:var(--text-color);'>
+        Bank Marketing Intelligence merupakan aplikasi berbasis data yang dirancang untuk membantu 
+        organisasi perbankan dalam menganalisis efektivitas kampanye pemasaran. Aplikasi ini 
+        memanfaatkan algoritma K-Means untuk segmentasi nasabah dan XGBoost untuk prediksi potensi 
+        berlangganan deposito berjangka. Dengan dukungan dashboard interaktif, profil klaster, 
+        prediksi individual maupun batch, serta evaluasi model yang transparan, aplikasi ini 
+        membantu pengambilan keputusan pemasaran yang lebih efektif, efisien, dan berbasis data.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+ 
     st.markdown("""
     <div style='padding:4px 0 16px;'>
         <p style='font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin:0 0 4px;'>About</p>
