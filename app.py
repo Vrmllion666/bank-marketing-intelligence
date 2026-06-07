@@ -1073,7 +1073,6 @@ elif page == "About":
      </p>
   </div>
   """, unsafe_allow_html=True)
- 
     st.markdown("""
     <div style='padding:4px 0 16px;'>
         <p style='font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin:0 0 4px;'>About</p>
@@ -1082,7 +1081,6 @@ elif page == "About":
         </p>
     </div>
     """, unsafe_allow_html=True)
-
     st.markdown("<p class='section-label'>Penjelasan Metode</p>", unsafe_allow_html=True)
     col_a, col_b = st.columns(2)
     with col_a:
@@ -1104,7 +1102,7 @@ elif page == "About":
                 pembanding terhadap XGBoost untuk memvalidasi performa prediksi.
             </p>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     with col_b:
         st.markdown("""
         <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
