@@ -1111,10 +1111,10 @@ elif page == "About":
                 border-radius:12px;padding:20px 24px;'>
         <p style='font-size:13px;line-height:1.8;margin:0;color:var(--text-color);'>
             <strong>Nama Proyek:</strong> Bank Marketing Intelligence Dashboard<br>
-            <strong>Mata Kuliah:</strong> [isi nama mata kuliah]<br>
-            <strong>Dosen Pembimbing:</strong> [isi nama dosen]<br>
-            <strong>Institusi:</strong> [isi nama kampus]<br>
-            <strong>Tahun:</strong> 2025
+            <strong>Mata Kuliah:</strong>Data Mining<br>
+            <strong>Dosen Pengampu:</strong>Dr. Wiyli Yustanti, S.Si., M.Kom.<br>
+             Universitas Negeri Surabaya<br>
+            <strong>Tahun:</strong> 2026
         </p>
     </div>
     """, unsafe_allow_html=True)
