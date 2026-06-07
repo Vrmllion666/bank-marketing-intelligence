@@ -368,8 +368,8 @@ if page == "Home":
 
     st.markdown("<p class='section-label'>Identitas Anggota</p>", unsafe_allow_html=True)
     members = [
-        ("Weka Surajati Sudanta", "NIM: 24051214079" ,"https://raw.githubusercontent.com/Vrmllion666/bank-marketing-intelligence/main/image/agr.jpg"),
-        ("Agril Adirizky", "NIM: 24051214095","https://raw.githubusercontent.com/Vrmllion666/bank-marketing-intelligence/main/image/wk.jpeg"),
+        ("Weka Surajati Sudanta", "NIM: 24051214079" ,"https://raw.githubusercontent.com/Vrmllion666/bank-marketing-intelligence/main/image/wk.jpg"),
+        ("Agril Adirizky", "NIM: 24051214095","https://raw.githubusercontent.com/Vrmllion666/bank-marketing-intelligence/main/image/agr.jpeg"),
     ]
     cols = st.columns(len(members))
     for col, (nama, nim, fotoprofil) in zip(cols, members):
