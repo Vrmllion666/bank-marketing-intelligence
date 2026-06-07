@@ -372,7 +372,7 @@ if page == "Home":
         ("Agril Adirizky", "NIM: 24051214095","https://raw.githubusercontent.com/Vrmllion666/bank-marketing-intelligence/main/image/wk.jpeg"),
     ]
     cols = st.columns(len(members))
-    for col, (nama, nim, foto-profil) in zip(cols, members):
+    for col, (nama, nim, fotoprofil) in zip(cols, members):
         with col:
             st.markdown(f"""
             <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
