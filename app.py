@@ -1124,8 +1124,6 @@ elif page == "About":
         </div>
         """, unsafe_allow_html=True)
 
-    st.divider()
-
     st.markdown("<p class='section-label'>Dataset</p>", unsafe_allow_html=True)
     st.markdown("""
     <div style='background:rgba(37,99,235,0.06);border:1px solid rgba(37,99,235,0.22);
@@ -1141,8 +1139,6 @@ elif page == "About":
     </div>
     """, unsafe_allow_html=True)
 
-    st.divider()
-
     st.markdown("<p class='section-label'>Informasi Proyek</p>", unsafe_allow_html=True)
     st.markdown("""
     <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
@@ -1156,8 +1152,6 @@ elif page == "About":
         </p>
     </div>
     """, unsafe_allow_html=True)
-
-    st.divider()
 
     st.markdown("<p class='section-label'>Informasi Model</p>", unsafe_allow_html=True)
     st.markdown(f"""
