@@ -1073,7 +1073,7 @@ elif page == "About":
      </p>
   </div>
   """, unsafe_allow_html=True)
-    st.markdown("""
+  st.markdown("""
     <div style='padding:4px 0 16px;'>
         <p style='font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin:0 0 4px;'>About</p>
         <p style='font-size:0.87rem;color:var(--text-color);opacity:0.6;margin:0;'>
@@ -1121,7 +1121,7 @@ elif page == "About":
                 ketidakseimbangan kelas pada data training (hanya ~11% nasabah yang subscribe).
             </p>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
     st.divider()
 
