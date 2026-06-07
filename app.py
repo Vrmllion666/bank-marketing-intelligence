@@ -1060,28 +1060,30 @@ elif page == "Evaluasi Model":
         """)
 
 elif page == "About":
-   st.markdown("""
-   <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
-            border-radius:12px;padding:20px 24px;margin-bottom:24px;'>
-      <p style='font-size:14px;line-height:1.8;margin:0;color:var(--text-color);'>
-        Bank Marketing Intelligence merupakan aplikasi berbasis data yang dirancang untuk membantu 
-        organisasi perbankan dalam menganalisis efektivitas kampanye pemasaran. Aplikasi ini 
-        memanfaatkan algoritma K-Means untuk segmentasi nasabah dan XGBoost untuk prediksi potensi 
-        berlangganan deposito berjangka. Dengan dukungan dashboard interaktif, profil klaster, 
-        prediksi individual maupun batch, serta evaluasi model yang transparan, aplikasi ini 
-        membantu pengambilan keputusan pemasaran yang lebih efektif, efisien, dan berbasis data.
-      </p>
+    st.markdown("""
+    <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
+                border-radius:12px;padding:20px 24px;margin-bottom:24px;'>
+        <p style='font-size:14px;line-height:1.8;margin:0;color:var(--text-color);'>
+            Bank Marketing Intelligence merupakan aplikasi berbasis data yang dirancang untuk membantu
+            organisasi perbankan dalam menganalisis efektivitas kampanye pemasaran. Aplikasi ini
+            memanfaatkan algoritma K-Means untuk segmentasi nasabah dan XGBoost untuk prediksi potensi
+            berlangganan deposito berjangka. Dengan dukungan dashboard interaktif, profil klaster,
+            prediksi individual maupun batch, serta evaluasi model yang transparan, aplikasi ini
+            membantu pengambilan keputusan pemasaran yang lebih efektif, efisien, dan berbasis data.
+        </p>
     </div>
     """, unsafe_allow_html=True)
-   st.markdown("""
-   <div style='padding:4px 0 16px;'>
+
+    st.markdown("""
+    <div style='padding:4px 0 16px;'>
         <p style='font-size:2rem;font-weight:800;letter-spacing:-0.03em;margin:0 0 4px;'>About</p>
         <p style='font-size:0.87rem;color:var(--text-color);opacity:0.6;margin:0;'>
             Penjelasan metode, dataset, dan informasi proyek
         </p>
     </div>
-   """, unsafe_allow_html=True)
-   st.markdown("<p class='section-label'>Penjelasan Metode</p>", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
+
+    st.markdown("<p class='section-label'>Penjelasan Metode</p>", unsafe_allow_html=True)
     col_a, col_b = st.columns(2)
     with col_a:
         st.markdown("""
@@ -1089,8 +1091,8 @@ elif page == "About":
                     border-radius:12px;padding:18px 20px;margin-bottom:12px;'>
             <p style='font-size:13px;font-weight:700;margin:0 0 8px;'>XGBoost</p>
             <p style='font-size:12px;color:#6b7280;margin:0;line-height:1.7;'>
-                Algoritma boosting berbasis decision tree. Digunakan untuk klasifikasi biner 
-                apakah nasabah akan subscribe deposito atau tidak. Dipilih karena performa 
+                Algoritma boosting berbasis decision tree. Digunakan untuk klasifikasi biner
+                apakah nasabah akan subscribe deposito atau tidak. Dipilih karena performa
                 tinggi pada data tabular dan imbalanced dataset.
             </p>
         </div>
@@ -1098,18 +1100,18 @@ elif page == "About":
                     border-radius:12px;padding:18px 20px;'>
             <p style='font-size:13px;font-weight:700;margin:0 0 8px;'>Random Forest</p>
             <p style='font-size:12px;color:#6b7280;margin:0;line-height:1.7;'>
-                Ensemble learning berbasis banyak decision tree. Digunakan sebagai model 
+                Ensemble learning berbasis banyak decision tree. Digunakan sebagai model
                 pembanding terhadap XGBoost untuk memvalidasi performa prediksi.
             </p>
         </div>
-   """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
     with col_b:
         st.markdown("""
         <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
                     border-radius:12px;padding:18px 20px;margin-bottom:12px;'>
             <p style='font-size:13px;font-weight:700;margin:0 0 8px;'>K-Means Clustering</p>
             <p style='font-size:12px;color:#6b7280;margin:0;line-height:1.7;'>
-                Algoritma unsupervised learning untuk mengelompokkan nasabah ke dalam 4 segmen 
+                Algoritma unsupervised learning untuk mengelompokkan nasabah ke dalam 4 segmen
                 berdasarkan karakteristik perilaku dan demografi mereka.
             </p>
         </div>
@@ -1117,11 +1119,11 @@ elif page == "About":
                     border-radius:12px;padding:18px 20px;'>
             <p style='font-size:13px;font-weight:700;margin:0 0 8px;'>SMOTE</p>
             <p style='font-size:12px;color:#6b7280;margin:0;line-height:1.7;'>
-                Synthetic Minority Oversampling Technique. Digunakan untuk mengatasi 
+                Synthetic Minority Oversampling Technique. Digunakan untuk mengatasi
                 ketidakseimbangan kelas pada data training (hanya ~11% nasabah yang subscribe).
             </p>
         </div>
-   """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
 
     st.divider()
 
@@ -1138,7 +1140,7 @@ elif page == "About":
             <strong>Tipe Fitur:</strong> Numerik (10 fitur) dan Kategorikal (10 fitur)
         </p>
     </div>
-   """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
     st.divider()
 
@@ -1148,25 +1150,26 @@ elif page == "About":
                 border-radius:12px;padding:20px 24px;'>
         <p style='font-size:13px;line-height:1.8;margin:0;color:var(--text-color);'>
             <strong>Nama Proyek:</strong> Bank Marketing Intelligence Dashboard<br>
-            <strong>Mata Kuliah:</strong>Data Mining<br>
-            <strong>Dosen Pengampu:</strong>Dr. Wiyli Yustanti, S.Si., M.Kom.<br>
-             Universitas Negeri Surabaya<br>
+            <strong>Mata Kuliah:</strong> Data Mining<br>
+            <strong>Dosen Pengampu:</strong> Dr. Wiyli Yustanti, S.Si., M.Kom.<br>
+            <strong>Institusi:</strong> Universitas Negeri Surabaya<br>
             <strong>Tahun:</strong> 2026
         </p>
     </div>
     """, unsafe_allow_html=True)
-    
+
     st.divider()
+
     st.markdown("<p class='section-label'>Informasi Model</p>", unsafe_allow_html=True)
     st.markdown(f"""
-        <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
-            border-radius:12px;padding:20px 24px;'>
-                <p style='font-size:13px;line-height:1.8;margin:0;color:var(--text-color);'>
-                    <strong>Model Aktif:</strong> {meta['best_model_name']}<br>
-                    <strong>ROC-AUC:</strong> {meta['xgb_metrics']['ROC-AUC']}<br>
-                    <strong>Accuracy:</strong> {meta['xgb_metrics']['Accuracy']}<br>
-                    <strong>Fitur:</strong> {meta['n_features']}<br>
-                    <strong>Cluster:</strong> {meta['n_clusters']}
-                </p>
-        </div>
-        """, unsafe_allow_html=True)
+    <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
+                border-radius:12px;padding:20px 24px;'>
+        <p style='font-size:13px;line-height:1.8;margin:0;color:var(--text-color);'>
+            <strong>Model Aktif:</strong> {meta['best_model_name']}<br>
+            <strong>ROC-AUC:</strong> {meta['xgb_metrics']['ROC-AUC']}<br>
+            <strong>Accuracy:</strong> {meta['xgb_metrics']['Accuracy']}<br>
+            <strong>Fitur:</strong> {meta['n_features']}<br>
+            <strong>Cluster:</strong> {meta['n_clusters']}
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
