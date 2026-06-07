@@ -365,14 +365,14 @@ if page == "Home":
         </p>
     </div>
     """, unsafe_allow_html=True)
-    st.divider()
+   
     st.markdown("<p class='section-label'>Fitur Aplikasi</p>", unsafe_allow_html=True)
 
     fitur = [
-    ("🏠", "Dashboard", "Visualisasi segmentasi nasabah berbasis K-Means Clustering dengan 4 segmen."),
-    ("🔮", "Prediksi Nasabah", "Prediksi kemungkinan nasabah berlangganan deposito secara individual."),
-    ("📂", "Prediksi Batch", "Upload CSV untuk prediksi massal banyak nasabah sekaligus."),
-    ("📊", "Evaluasi Model", "Perbandingan performa Random Forest vs XGBoost dengan berbagai metrik."),
+    ("Dashboard", "Visualisasi segmentasi nasabah berbasis K-Means Clustering dengan 4 segmen."),
+    ("Prediksi Nasabah", "Prediksi kemungkinan nasabah berlangganan deposito secara individual."),
+    ("Prediksi Batch", "Upload CSV untuk prediksi massal banyak nasabah sekaligus."),
+    ("Evaluasi Model", "Perbandingan performa Random Forest vs XGBoost dengan berbagai metrik."),
      ]
 
     cols_fitur = st.columns(len(fitur))
