@@ -346,7 +346,7 @@ if page == "Home":
         <p style='font-size:2.2rem;font-weight:800;letter-spacing:-0.03em;margin:0 0 8px;'>
             Bank Marketing Intelligence
         </p>
-        <p style='font-size:1rem;color:var(--text-color);opacity:0.6;margin:0 0 16px;'>
+        <p style='font-size:1rem;color:var(--text-color);opacity:0.6;margin:0 0 1px;'>
             Sistem prediksi dan segmentasi nasabah berbasis Machine Learning
         </p>
     </div>
