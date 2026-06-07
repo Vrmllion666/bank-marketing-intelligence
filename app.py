@@ -342,7 +342,7 @@ def load_original_stats(_scaler, _feat_cols, _kmeans):
 
 if page == "Home":
     st.markdown("""
-    <div style='padding:4px 0 24px;'>
+    <div style='padding:4px 0 12px;'>
         <p style='font-size:2.2rem;font-weight:800;letter-spacing:-0.03em;margin:0 0 8px;'>
             Bank Marketing Intelligence
         </p>
@@ -355,7 +355,7 @@ if page == "Home":
     st.markdown("<p class='section-label'style= color:black;>Deskripsi Proyek</p>", unsafe_allow_html=True)
     st.markdown("""
     <div style='background:rgba(37,99,235,0.06);border:1px solid rgba(37,99,235,0.22);
-                border-radius:12px;padding:20px 24px;margin-bottom:24px;'>
+                border-radius:12px;padding:20px 24px;margin-bottom:12px;'>
         <p style='font-size:0.95rem;line-height:1.8;margin:0;color:var(--text-color);'>
             Proyek ini membangun sistem <strong>Bank Marketing Intelligence</strong> menggunakan 
             dataset UCI Bank Marketing. Model machine learning digunakan untuk memprediksi 
@@ -380,7 +380,7 @@ if page == "Home":
       with col:
         st.markdown(f"""
         <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
-                    border-radius:12px;padding:20px;text-align:center;min-height:110px;margin-bottom:24px;'>
+                    border-radius:12px;padding:20px;text-align:center;min-height:110px;margin-bottom:12px;'>
             <p style='font-size:13px;font-weight:700;margin:0 0 8px;'>{judul}</p>
             <p style='font-size:12px;color:#6b7280;margin:0;line-height:1.6;'>{deskripsi}</p>
         </div>
