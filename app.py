@@ -1127,7 +1127,7 @@ elif page == "About":
     st.markdown("<p class='section-label'>Dataset</p>", unsafe_allow_html=True)
     st.markdown("""
     <div style='background:rgba(37,99,235,0.06);border:1px solid rgba(37,99,235,0.22);
-                border-radius:12px;padding:20px 24px;margin-bottom:24px;'>
+                border-radius:12px;padding:20px 24px;margin-bottom:12px;'>
         <p style='font-size:13px;line-height:1.8;margin:0;color:var(--text-color);'>
             <strong>Nama Dataset:</strong> Bank Marketing Dataset<br>
             <strong>Sumber:</strong> UCI Machine Learning Repository<br>
@@ -1142,7 +1142,7 @@ elif page == "About":
     st.markdown("<p class='section-label'>Informasi Proyek</p>", unsafe_allow_html=True)
     st.markdown("""
     <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
-                border-radius:12px;padding:20px 24px;'>
+                border-radius:12px;padding:20px 24px;margin-bottom:12px;'>
         <p style='font-size:13px;line-height:1.8;margin:0;color:var(--text-color);'>
             <strong>Nama Proyek:</strong> Bank Marketing Intelligence Dashboard<br>
             <strong>Mata Kuliah:</strong> Data Mining<br>
@@ -1156,7 +1156,7 @@ elif page == "About":
     st.markdown("<p class='section-label'>Informasi Model</p>", unsafe_allow_html=True)
     st.markdown(f"""
     <div style='background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);
-                border-radius:12px;padding:20px 24px;'>
+                border-radius:12px;padding:20px 12px;'>
         <p style='font-size:13px;line-height:1.8;margin:0;color:var(--text-color);'>
             <strong>Model Aktif:</strong> {meta['best_model_name']}<br>
             <strong>ROC-AUC:</strong> {meta['xgb_metrics']['ROC-AUC']}<br>
