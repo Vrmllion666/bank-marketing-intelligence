@@ -1081,7 +1081,7 @@ elif page == "About":
         </p>
     </div>
    """, unsafe_allow_html=True)
-    st.markdown("<p class='section-label'>Penjelasan Metode</p>", unsafe_allow_html=True)
+   st.markdown("<p class='section-label'>Penjelasan Metode</p>", unsafe_allow_html=True)
     col_a, col_b = st.columns(2)
     with col_a:
         st.markdown("""
@@ -1102,7 +1102,7 @@ elif page == "About":
                 pembanding terhadap XGBoost untuk memvalidasi performa prediksi.
             </p>
         </div>
-    """, unsafe_allow_html=True)
+   """, unsafe_allow_html=True)
     with col_b:
         st.markdown("""
         <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
@@ -1121,7 +1121,7 @@ elif page == "About":
                 ketidakseimbangan kelas pada data training (hanya ~11% nasabah yang subscribe).
             </p>
         </div>
-    """, unsafe_allow_html=True)
+   """, unsafe_allow_html=True)
 
     st.divider()
 
@@ -1138,7 +1138,7 @@ elif page == "About":
             <strong>Tipe Fitur:</strong> Numerik (10 fitur) dan Kategorikal (10 fitur)
         </p>
     </div>
-    """, unsafe_allow_html=True)
+   """, unsafe_allow_html=True)
 
     st.divider()
 
