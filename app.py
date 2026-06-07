@@ -1096,7 +1096,7 @@ elif page == "About":
             </p>
         </div>
         <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
-                    border-radius:12px;padding:18px 20px;'>
+                    border-radius:12px;padding:18px 20px;margin-bottom:12px;'>
             <p style='font-size:13px;font-weight:700;margin:0 0 8px;'>Random Forest</p>
             <p style='font-size:12px;color:#6b7280;margin:0;line-height:1.7;'>
                 Ensemble learning berbasis banyak decision tree. Digunakan sebagai model
