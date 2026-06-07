@@ -365,7 +365,28 @@ if page == "Home":
         </p>
     </div>
     """, unsafe_allow_html=True)
+st.divider()
+st.markdown("<p class='section-label'>Fitur Aplikasi</p>", unsafe_allow_html=True)
 
+fitur = [
+    ("🏠", "Dashboard", "Visualisasi segmentasi nasabah berbasis K-Means Clustering dengan 4 segmen."),
+    ("🔮", "Prediksi Nasabah", "Prediksi kemungkinan nasabah berlangganan deposito secara individual."),
+    ("📂", "Prediksi Batch", "Upload CSV untuk prediksi massal banyak nasabah sekaligus."),
+    ("📊", "Evaluasi Model", "Perbandingan performa Random Forest vs XGBoost dengan berbagai metrik."),
+]
+
+cols_fitur = st.columns(len(fitur))
+for col, (icon, judul, deskripsi) in zip(cols_fitur, fitur):
+    with col:
+        st.markdown(f"""
+        <div style='background:rgba(128,128,128,0.07);border:1px solid rgba(128,128,128,0.15);
+                    border-radius:12px;padding:20px;text-align:center;min-height:160px;'>
+            <div style='font-size:28px;margin-bottom:10px;'>{icon}</div>
+            <p style='font-size:13px;font-weight:700;margin:0 0 8px;'>{judul}</p>
+            <p style='font-size:12px;color:#6b7280;margin:0;line-height:1.6;'>{deskripsi}</p>
+        </div>
+        """, unsafe_allow_html=True)
+ 
     st.markdown("<p class='section-label'>Identitas Anggota</p>", unsafe_allow_html=True)
     members = [
         ("Weka Surajati Sudanta", "NIM: 24051214079" ,"https://raw.githubusercontent.com/Vrmllion666/bank-marketing-intelligence/main/image/wk.jpeg"),
